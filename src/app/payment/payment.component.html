@@ -1,0 +1,48 @@
+<p-toast></p-toast>
+<div class="container">
+  <div class="row justify-content-center align-items-center full-height">
+    <div class="col-md-8">
+      <p-panel header="Payment panel">
+        <ng-template pTemplate="content">
+          <form [formGroup]="paymentForm" (ngSubmit)="makePayment()" [noValidate]="true">
+            <div class="form-group">
+              <label for="cardNumber">Card Number</label>
+              <input id="cardNumber" class="form-control  {{paymentForm.get('cardNumber').invalid?'ng-invalid ng-dirty':''}}" pInputText type="text" mask="0000-0000-0000-0000" placeholder="0000-0000-0000-0000" formControlName="cardNumber"/>
+            </div>
+            <div class="form-group">
+              <label for="holderName">Holder Name</label>
+              <input id="holderName" class="form-control {{paymentForm.get('cardHolder').invalid?'ng-invalid ng-dirty':''}}" pInputText type="text" [pKeyFilter]="validName" formControlName="cardHolder" />
+            </div>
+            <div class="form-group">
+              <label for="amount">Amount</label>
+              <span class="p-input-icon-left form-control">
+                <i class="pi pi-dollar"></i>
+                <input pInputText class="form-control {{paymentForm.get('amount').invalid?'ng-invalid ng-dirty':''}}" id="amount" mask="separator.2" thousandSeparator="," formControlName="amount">
+              </span>
+
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="expired">Expired</label>
+                  <input id="expired" (ngModelChange)="validate()" class="form-control {{paymentForm.get('expiration').invalid?'ng-invalid ng-dirty':''}}" aria-describedby="expired-help" pInputText type="text" mask="M0/00" [dropSpecialCharacters]="false" [leadZeroDateTime]="true" formControlName="expiration">
+                  <small *ngIf="paymentForm.get('expiration').invalid" id="expired-help" class="p-error">Expiration date is invalid</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label>CVV <small>(optional)</small></label>
+                  <input class="form-control {{paymentForm.get('cvv').invalid?'ng-invalid ng-dirty':''}}" pInputText type="text" mask="000" formControlName="cvv" [dropSpecialCharacters]="false" [hiddenInput]="true">
+                </div>
+              </div>
+            </div>
+            <div class="form-group d-flex justify-content-between">
+              <button type="button" pButton label="Cancel Payment" routerLink="/home"></button>
+              <button type="button" pButton class="p-button" [disabled]="paymentForm.invalid" (click)="makePayment()" label="Pay ${{paymentForm.get('amount').value|mask:'separator.2': ','}}"></button>
+            </div>
+          </form>
+        </ng-template>
+      </p-panel>
+    </div>
+  </div>
+</div>

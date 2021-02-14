@@ -1,0 +1,36 @@
+<p-toast></p-toast>
+<div *ngIf="paymentComplete; else makePayment">
+  <div class="container">
+    <div class="row justify-content-center align-items-center full-height">
+      <div class="col-md-5">
+        <p-panel header="Payment Information">
+          <div>
+            <ul class="list-unstyled">
+              <p>You just make payment of $ {{savedPayment.amount | mask: 'separator.2': ','}} with the following card information:</p>
+              <li>card Holder: {{savedPayment.cardHolder}}</li>
+              <li>card number: {{savedPayment.cardNumber}}</li>
+              <li>card expired date: {{savedPayment.expiration}}</li>
+              <li>CVV: {{savedPayment.cvv}}</li>
+            </ul>
+          </div>
+        </p-panel>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-template #makePayment>
+  <div class="container">
+    <div class="row justify-content-center align-items-center full-height">
+      <div class="col-md-5">
+        <p-panel header="New Payment">
+          <div>
+            <p>You dont have any payment information yet. made payment to continue</p>
+            <button pButton class="p-button-success" label="Add payment" routerLink="/payment"></button>
+          </div>
+        </p-panel>
+      </div>
+    </div>
+  </div>
+
+</ng-template>
+

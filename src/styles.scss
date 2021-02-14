@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap-4-grid/scss/grid';
+@import '../node_modules/primeicons/primeicons.css';
+@import '../node_modules/primeng/resources/themes/saga-blue/theme.css';
+@import '../node_modules/primeng/resources/primeng.min.css';
+.p-inputtext:enabled:hover{
+  box-shadow: none;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  .p-inputnumber-input{
+    width: 100%;
+  }
+}
+.form-group{
+  margin-bottom: 12px;
+  display: block;
+  label{
+    margin-bottom: 6px;
+    display: inline-block;
+  }
+}
+.full-height{
+  height: 90vh;
+  min-width: 450px;
+}
+body{
+  background-color: #f0f1f0;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  li{
+    margin-bottom: 16px;
+  }
+}
