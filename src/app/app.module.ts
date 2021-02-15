@@ -21,6 +21,7 @@ import { EffectsModule } from '@ngrx/effects';
 import {StoreModule} from '@ngrx/store';
 import {PaymentEffects} from './store/effects/payment.effects';
 import {reducers} from './store/app.states';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
     InputNumberModule,
     KeyFilterModule,
     RippleModule,
+    HttpClientModule,
     InputMaskModule,
     EffectsModule.forRoot([PaymentEffects]),
     StoreModule.forRoot(reducers, {}),

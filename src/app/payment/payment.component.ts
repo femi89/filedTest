@@ -60,6 +60,7 @@ export class PaymentComponent implements OnInit {
 
   makePayment() {
     const payload = this.paymentForm.value;
+    this.messageService.add({severity: 'success', summary: 'Complete', detail: 'payment completed'});
     this.store.dispatch(new PaymentAction(payload));
     // this.paymentService.postPayment(this.paymentForm.value).then( (result: any) => {
     //       this.messageService.add({severity: 'success', summary: 'Complete', detail: 'payment completed'});

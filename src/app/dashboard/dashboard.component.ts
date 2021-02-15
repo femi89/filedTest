@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {StorageService} from '../services/storage.service';
 import {Payment, States} from '../interfaces/payment';
 import {Observable} from 'rxjs';
 import {State, Store} from '@ngrx/store';
 import {AppStates, selectPaymentState} from '../store/app.states';
-import {PaymentAction} from '../store/actions/payment.action';
 
 @Component({
   selector: 'app-dashboard',
