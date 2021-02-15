@@ -1,5 +1,4 @@
 import {Injectable} from '@angular/core';
-import {Action} from '@ngrx/store';
 import {Router} from '@angular/router';
 import {Actions, Effect, ofType} from '@ngrx/effects';
 import {exhaustMap, tap} from 'rxjs/operators';
@@ -20,8 +19,6 @@ export class PaymentEffects {
   ) {
   }
 
-  // effects go here
-  // @ts-ignore
   @Effect()
   MakePayment: Observable<any> = this.actions.pipe(
     ofType(PaymentActionTypes.PAYMENT),
@@ -32,16 +29,6 @@ export class PaymentEffects {
          }
       )
     )
-    // .switchMap(payload => {
-    //   .map((res) => {
-    //     console.log(res);
-    //     return new PaymentComplete(res);
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //     // return Observable.of(new LogInFailure({ errors: error }));
-    //   });
-    // });
   );
   @Effect({ dispatch: false })
   LogInSuccess: Observable<any> = this.actions.pipe(

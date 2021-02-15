@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7723f72f-5b9e-42b7-83c9-ae54acb047b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.rules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main-es2015.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main-es2015.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main-es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main-es5.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/password-meter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/polyfills-es2015.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/polyfills-es2015.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/polyfills-es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/polyfills-es5.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/primeicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/primeicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/primeicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/primeicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/runtime-es2015.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/runtime-es2015.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/runtime-es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/runtime-es5.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles-es2015.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles-es2015.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles-es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles-es5.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor-es2015.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor-es2015.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor-es5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor-es5.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
-    </list>
+    <list default="true" id="7723f72f-5b9e-42b7-83c9-ae54acb047b4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +24,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613398343496</updated>
-      <workItem from="1613398345633" duration="639000" />
+      <workItem from="1613398345633" duration="645000" />
     </task>
     <servers />
   </component>
