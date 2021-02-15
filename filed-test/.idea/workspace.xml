@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7723f72f-5b9e-42b7-83c9-ae54acb047b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.rules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/password-meter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/polyfills-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/polyfills-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/polyfills-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/polyfills-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/primeicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/primeicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/primeicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/primeicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/runtime-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/runtime-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/runtime-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/runtime-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles-es5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor-es2015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor-es2015.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor-es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor-es5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1oWNMp2GvTgb8pWO0TOqwhcjFeB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7723f72f-5b9e-42b7-83c9-ae54acb047b4" name="Default Changelist" comment="" />
+      <created>1613398343496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613398343496</updated>
+      <workItem from="1613398345633" duration="639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
